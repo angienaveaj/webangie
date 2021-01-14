@@ -1,0 +1,62 @@
+@media screen and (max-width:780px) {
+    .contenido-header {
+        padding-top: 2rem;
+    }
+    .img-header {
+        order: 1;
+    }
+    .textos-header{
+        order: 2;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    .botones-banner {
+        justify-content: center;
+    }
+    .sobre-mi{
+        text-align: center;
+    }
+    .btn-sobremi{
+        justify-content: center;
+    }
+    .contenedor-barra{
+        padding-bottom: 2.5rem;
+    }
+    .card-sobremi h4 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .skill{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .menu-header {
+        top: 0.8rem;
+        right: 1.5rem;
+    }
+    .enlaces-text {
+        font-size: 2rem;
+    }
+    .textos-header h1{
+        font-size: 3rem;
+    }
+    .btn-bordes{
+        display: none;
+    }
+    .botones-banner {
+        justify-content: center;
+    }
+    .call-to-action {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .texto-call {
+        padding-bottom: 1rem;
+    }
+    .fa-handshake {
+        display: none;
+    }
+}

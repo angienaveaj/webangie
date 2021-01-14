@@ -1,0 +1,152 @@
+/****SVG BANNER****/
+.st4 {
+    fill: #00cca5
+}
+
+.st5 {
+    fill: #ef1f86
+}
+
+.st8 {
+    fill: #f7a894
+}
+
+.st9 {
+    fill: #eaeaea
+}
+
+.st10 {
+    fill: #e1e1e1
+}
+
+.st11 {
+    fill: #421120
+}
+
+.st12 {
+    fill: #0075cd
+}
+
+.st13 {
+    fill: #0090e8
+}
+
+.st14 {
+    fill: #efe6e9
+}
+
+.st15 {
+    fill: #f3c6af;
+    stroke: #f7a78b;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10
+}
+
+.st18 {
+    fill: #402037
+}
+
+.st19 {
+    fill: #f8c9b2
+}
+
+.st21 {
+    stroke: #f7a78b;
+    stroke-linecap: round
+}
+
+.st21,
+.st26,
+.st28 {
+    fill: none;
+    stroke-width: 2;
+    stroke-miterlimit: 10
+}
+
+.st26 {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #301725
+}
+
+.st28 {
+    stroke: #2d4451
+}
+
+.st29 {
+    fill: #00b793
+}
+
+.st30 {
+    fill: #00cda6;
+    stroke: #00b793;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-miterlimit: 10
+}
+/*fin SVG*/
+
+/*animacion SVG BANNER*/
+#circulo-palido {
+    transform-origin: 50% 75%;
+    animation: animar_lineas 2s 0.2s infinite ease;
+    -webkit-animation: animar_lineas 2s 0.2s infinite ease;
+    -moz-animation: animar_lineas 2s 0.2s infinite ease;
+    -o-animation: animar_lineas 2s 0.2s infinite ease;
+}
+
+#circulo-saturado, ellipse {
+    transform-origin: 50% 75%;
+    opacity: 0;
+    animation: animar_lineas 2s infinite ease;
+    -webkit-animation: animar_lineas 2s infinite ease;
+    -moz-animation: animar_lineas 2s infinite ease;
+    -o-animation: animar_lineas 2s infinite ease;
+}
+
+@keyframes animar_lineas {
+    0%{
+        transform: scale(.2,.2,.2);
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0;
+        transform:scale(1.03);
+    }
+}
+
+/*animacion personaje*/
+#personaje  {
+    animation: rebote 3s infinite ease;
+    -webkit-animation: rebote 3s infinite ease;
+    -moz-animation: rebote 3s infinite ease;
+    -o-animation: rebote 3s infinite ease;
+}
+
+@keyframes rebote {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+}
+
+/*Animacion circulos*/
+circle {
+    animation: rotacion 12s linear infinite;
+    -webkit-animation: rotacion 12s linear infinite;
+    -moz-animation: rotacion 12s linear infinite;
+    -o-animation: rotacion 12s linear infinite;
+    transform-origin: center;
+}
+
+@keyframes rotacion{
+    to{
+        transform: rotate(360deg);
+    }
+}
