@@ -30,6 +30,9 @@
     .skill{
         font-size: 1rem;
     }
+    .multimedia .col-md-8 iframe {
+        height: auto;
+    }
 }
 
 @media screen and (max-width:420px) {
@@ -58,5 +61,8 @@
     }
     .fa-handshake {
         display: none;
+    }
+    .multimedia .col-md-8 iframe {
+        height: auto;
     }
 }
