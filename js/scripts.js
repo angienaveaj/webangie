@@ -11,7 +11,7 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 
-//formulario
+//formulario contacto
 const form = document.getElementById('form')
 const button = document.getElementById('submitbutton')
 
